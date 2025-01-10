@@ -1,4 +1,4 @@
 #container{
-    display: flex; /*Only affects direct desendents which are the row container divs in the javascript*/
-    flex-direction: row;
+    display: inline-flex; /*! Need inline flex instead of flex becuase if it was only flex then the external display is block display which means it takes up entire space horizontally -> colering of non grid parts*/
+    flex-direction: row; /*Only affects direct desendents which are the row container divs in the javascript*/
 }
