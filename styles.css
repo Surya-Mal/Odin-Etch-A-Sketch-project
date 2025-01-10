@@ -1,0 +1,4 @@
+#container{
+    display: flex; /*Only affects direct desendents which are the row container divs in the javascript*/
+    flex-direction: row;
+}
